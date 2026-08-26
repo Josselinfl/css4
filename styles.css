@@ -1,0 +1,79 @@
+/* Configuración del contenedor principal */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0b0f19; /* Fondo oscuro de la imagen */
+        }
+
+        /* Estructura de la cuadrícula */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 80px);
+            grid-template-rows: repeat(6, 80px);
+            gap: 15px; /* Espacio entre los cuadrados */
+            padding: 20px;
+        }
+
+        /* Estilo base para cada cuadrado */
+        .box {
+            border-radius: 12px; /* Bordes redondeados suaves */
+            transition: transform 0.2s ease;
+        }
+
+        /* Efecto visual al pasar el cursor (opcional) */
+        .box:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        /* Definición de colores por filas (de arriba a abajo) */
+        /* Fila 1 */
+        .r1-c1 { background-color: #8fa0f6; }
+        .r1-c2 { background-color: #adb5fc; }
+        .r1-c3 { background-color: #b07ef4; }
+        .r1-c4 { background-color: #df7efc; }
+        .r1-c5 { background-color: #e56b95; }
+        .r1-c6 { background-color: #e86d6d; }
+
+        /* Fila 2 */
+        .r2-c1 { background-color: #6d76f7; }
+        .r2-c2 { background-color: #8b8bfc; }
+        .r2-c3 { background-color: #9254f2; }
+        .r2-c4 { background-color: #c456f5; }
+        .r2-c5 { background-color: #ce4475; }
+        .r2-c6 { background-color: #db4852; }
+
+        /* Fila 3 */
+        .r3-c1 { background-color: #5550f2; }
+        .r3-c2 { background-color: #6f59f2; }
+        .r3-c3 { background-color: #792eeb; }
+        .r3-c4 { background-color: #aa33e0; }
+        .r3-c5 { background-color: #b02358; }
+        .r3-c6 { background-color: #be283b; }
+
+        /* Fila 4 */
+        .r4-c1 { background-color: #433bc2; }
+        .r4-c2 { background-color: #543fcc; }
+        .r4-c3 { background-color: #6020c4; }
+        .r4-c4 { background-color: #8822b3; }
+        .r4-c5 { background-color: #8c1643; }
+        .r4-c6 { background-color: #961b2b; }
+
+        /* Fila 5 */
+        .r5-c1 { background-color: #342e9c; }
+        .r5-c2 { background-color: #4030a3; }
+        .r5-c3 { background-color: #4b179c; }
+        .r5-c4 { background-color: #6b178c; }
+        .r5-c5 { background-color: #6e0e33; }
+        .r5-c6 { background-color: #781220; }
+
+        /* Fila 6 */
+        .r6-c1 { background-color: #252175; }
+        .r6-c2 { background-color: #2d217a; }
+        .r6-c3 { background-color: #361073; }
+        .r6-c4 { background-color: #4f0e69; }
+        .r6-c5 { background-color: #4f0723; }
+        .r6-c6 { background-color: #590a15; }
